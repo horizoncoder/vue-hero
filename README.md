@@ -1,4 +1,4 @@
-Использовал фреймворк vue js, база даних FireBase.
+Использованы фреймворки Vue js и NodeJs, база даних FireBase.
 
 
 # vue-hero

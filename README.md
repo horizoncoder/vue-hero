@@ -1,5 +1,8 @@
 Использованы фреймворки Vue js и NodeJs, база даних FireBase.
-
+### Загрузка и хранение фотографий папка imageupload
+```
+npm node app.js
+```
 
 # vue-hero
 
@@ -26,10 +29,7 @@ npm run lint
 ```
 npm run unit
 ```
-### Загрузка и хранение фотографий папка imageupload
-```
-npm node app.js
-```
+
 
 
 ### Customize configuration

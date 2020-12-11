@@ -14,15 +14,42 @@
 
           <div class="">
             <figure class="view overlay rounded z-depth-1 main-img">
-                 <img  width="300" height="350" :src="hero.image">
-                
-              
-            </figure>
+                   <b-carousel
+            controls
+            indicators
+            img-width="200"
+            img-height="200"
+            :interval="3000"
+            v-model="slide"
+        >
+            <b-carousel-slide :img-src="hero.image"
+            ></b-carousel-slide>
+            <b-carousel-slide :img-src="hero.image2">
+            </b-carousel-slide>
+            <b-carousel-slide>
+                <template v-slot:img>
+                    <img class="d-block img-fluid w-100" width="1024" height="480" :src="hero.image3" />
+                </template>
+            </b-carousel-slide>
+           
+                 <b-carousel-slide>
+                <template v-slot:img>
+                    <img class="d-block img-fluid w-100" width="1024" height="480" :src="hero.image4" />
+                </template>
+            </b-carousel-slide>
+            <b-carousel-slide :img-src="hero.image5"></b-carousel-slide>
+        </b-carousel>
+        
+            <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=14"></b-carousel-slide>
         
               
           <div>
     
 </div>
+                
+              
+            </figure>
+
 
               
             
@@ -65,6 +92,12 @@
 
     </div>
     <div class="col-md-6">
+
+///
+
+      
+
+
 <div >
   <b-link href="#/">Hero List</b-link>
 <h5 > {{hero.nickname }} </h5>

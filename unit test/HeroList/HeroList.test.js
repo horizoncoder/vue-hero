@@ -5,7 +5,7 @@ describe('Check  falsy value ',()=>{
      expect(heroList()).not.toBeNull()   
     })
 
-test('Cheack hero in hero list' ,()=>{
+test('Check hero in hero list' ,()=>{
     expect(heroList()).toContain('Doctor Doom')
 })
 test('Leanght' ,()=>{

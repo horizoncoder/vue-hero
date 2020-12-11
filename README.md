@@ -1,3 +1,6 @@
+Использовал фреймворк vue js, база даних FireBase.
+
+
 # vue-hero
 
 ## Project setup
@@ -19,6 +22,15 @@ npm run build
 ```
 npm run lint
 ```
+### Unit test
+```
+npm run unit
+```
+### Загрузка и хранение фотографий папка imageupload
+```
+npm node app.js
+```
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
